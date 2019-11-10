@@ -21,6 +21,7 @@ unsigned long tl_timer;  // traffic light timer
 int touch_state;         // touch button state
 unsigned long buzzer_timer;
 
+
 void setup() {
   pinMode(RED_PIN, OUTPUT);
   pinMode(YELLOW_PIN, OUTPUT);
@@ -34,6 +35,7 @@ void setup() {
   tl_timer = millis();
   buzzer_timer = millis();
 }
+
 
 void loop() {
   switch (tl_state) {

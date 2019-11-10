@@ -7,6 +7,7 @@ const int colorR = 240;
 const int colorG = 120;
 const int colorB = 40;
 
+
 void setup() {
     // Set up the LCD's number of columns and rows
     lcd.begin(16, 2);
@@ -17,5 +18,6 @@ void setup() {
     // Print a message to the LCD
     lcd.print("Hello, world!");
 }
+
 
 void loop() { }

@@ -17,6 +17,7 @@ const int lcdColorR = 120;
 const int lcdColorG = 200;
 const int lcdColorB = 240;
 
+
 void setup() {
   Serial.begin(9600);
 
@@ -40,6 +41,7 @@ void setup() {
     delay(1000);
   }
 }
+
 
 void loop() {
   uint8_t touched = cap.touched();

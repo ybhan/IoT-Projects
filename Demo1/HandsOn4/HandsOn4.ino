@@ -10,6 +10,7 @@ int sensorMax = 0;       // maximum sensor value
 
 Servo myServo;  // Create servo object to control a servo
 
+
 void setup() {
   myServo.attach(servoPin);  // Attach the servo on D3 to the servo object
 
@@ -29,6 +30,7 @@ void setup() {
   // Signal the end of the calibration period
   digitalWrite(13, LOW);
 }
+
 
 void loop() {
   // Read the sensor
